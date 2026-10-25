@@ -1,0 +1,1463 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>My Portfolio</title>
+
+<!-- Bootstrap CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Custom CSS -->
+<link rel="stylesheet" href="style.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark w-100 py-3">
+        <div class="container">
+
+            <a class="navbar-brand" href="#home">My<span>Portfolio</span></a>
+
+            <button class="navbar-toggler" type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarMenu"
+                aria-controls="navbarMenu"
+                aria-expanded="false"
+                aria-label="Toggle navigation">
+
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarMenu">
+
+                <ul class="navbar-nav ms-auto">
+
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#home">Home</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#gallery">Gallery</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Skills</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+
+                    <!-- Theme Toggle Button -->
+                    <button
+                        id="theme-toggle"
+                        class="btn ms-lg-3 mt-2 mt-lg-0"
+                        type="button"
+                        aria-label="Switch to light mode"
+                    >
+                        ☀️ Light Mode
+                    </button>
+
+
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+
+
+<!-- Home Section -->
+<section id="home" class="hero-section">
+
+    <div class="container text-center">
+
+        <h1>------- Hello,</h1>
+        <h2>
+            <span class="intro-text">I'm a</span> <br><span id="typing-text" class="highlight"></span><span class="cursor">/</span>
+        </h2>
+
+        <p>
+            I am learning to build modern and responsive websites.
+        </p>
+
+        <a href="#projects" class="btn btn-primary custom-btn py-3">
+            View My Projects
+        </a>
+
+    </div>
+</section>
+
+<!-- About Section -->
+<section class="about-section" id="about">
+
+
+<div class="container">
+
+    <!-- Section Heading -->
+    <div class="about-heading text-center">
+
+        <span class="about-subtitle">GET TO KNOW ME</span>
+
+        <h2>
+            About <span>Me</span>
+        </h2>
+
+        <p>
+            A little introduction about who I am,
+            what I do, and what I'm passionate about.
+        </p>
+
+    </div>
+
+
+    <div class="row align-items-center g-5">
+
+        <!-- Left Side: Profile Image -->
+        <div class="col-lg-5">
+
+            <div class="about-image-wrapper">
+
+                <div class="about-image-glow"></div>
+
+                <div class="about-image-frame">
+
+                    <img
+                        src="img/about-me.jpg"
+                        alt="Portrait of the developer"
+                        class="about-profile-image"
+                        loading="lazy"
+                    >
+
+                </div>
+
+                <!-- Floating Badge -->
+                <div class="about-floating-badge">
+
+                    <div class="about-badge-icon">
+                        <i class="bi bi-code-slash"></i>
+                    </div>
+
+                    <div>
+                        <h4>Web Developer</h4>
+                        <p>Building for the web</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- Right Side: About Content -->
+        <div class="col-lg-7">
+
+            <div class="about-content">
+
+                <span class="about-intro-label">
+                    HELLO, I'M A DEVELOPER
+                </span>
+
+                <h3>
+                    Turning Ideas Into
+                    <span>Digital Experiences.</span>
+                </h3>
+
+                <p class="about-description">
+                    I'm a passionate web developer who enjoys
+                    creating modern, responsive, and user-friendly
+                    websites. I love exploring new technologies,
+                    solving problems, and turning creative ideas
+                    into practical web experiences.
+                </p>
+
+                <p class="about-description">
+                    My interests include frontend development,
+                    backend programming, database management,
+                    and interactive web experiences. I'm continuously
+                    learning and improving my skills by working
+                    on practical projects.
+                </p>
+
+
+                <!-- Highlights -->
+                <div class="about-highlights">
+
+                    <div class="about-highlight">
+                        <i class="bi bi-check-circle-fill"></i>
+                        <span>Responsive Web Design</span>
+                    </div>
+
+                    <div class="about-highlight">
+                        <i class="bi bi-check-circle-fill"></i>
+                        <span>Frontend Development</span>
+                    </div>
+
+                    <div class="about-highlight">
+                        <i class="bi bi-check-circle-fill"></i>
+                        <span>PHP & MySQL</span>
+                    </div>
+
+                    <div class="about-highlight">
+                        <i class="bi bi-check-circle-fill"></i>
+                        <span>Continuous Learning</span>
+                    </div>
+
+                </div>
+
+
+                <!-- Buttons -->
+                <div class="about-buttons">
+
+                    <a href="#projects" class="about-btn-primary">
+                        Explore My Work
+                        <i class="bi bi-arrow-up-right"></i>
+                    </a>
+
+                    <a href="#contact" class="about-btn-secondary">
+                        Let's Connect
+                        <i class="bi bi-chat-dots"></i>
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+```
+
+</section>
+<!-- About Me Section End -->
+
+
+<!-- Gallery Section -->
+
+<section id="gallery" class="section-padding">
+    <div class="container">
+
+    <div class="text-center mb-5">
+
+    <span class="badge rounded-pill px-3 py-2 mb-3"
+        style="background-color: rgba(0, 212, 255, 0.12); color: #00d4ff;">
+        MY CREATIVE WORLD
+    </span>
+
+    <h2 class="display-5 fw-bold text-white mb-3">
+        My <span style="color: #00d4ff;">Gallery</span>
+    </h2>
+
+    <p class="lead text-secondary mx-auto mb-0"
+    style="max-width: 650px; line-height: 1.8;">
+        Explore my favourite photographs, creative designs, and memorable
+        moments collected in one place.
+    </p>
+
+    <div class="mx-auto mt-4"
+        style="width: 70px; height: 4px; background-color: #00d4ff; border-radius: 10px;">
+    </div>
+
+
+    </div>
+
+
+    <div class="row g-4">
+
+        <div class="col-6 col-lg-3">
+            <div class="gallery-card">
+                <img src="img/gal1.jpg" alt="Gallery image 1" class="gallery-img" data-bs-toggle="modal" data-bs-target="#galleryModal" data-full-image="img/gal1.jpg">
+            </div>
+        </div>
+
+        <div class="col-6 col-lg-3">
+            <div class="gallery-card">
+                <img src="img/gal2.jpg" alt="Gallery image 2" class="gallery-img" data-bs-toggle="modal" data-bs-target="#galleryModal" data-full-image="img/gal2.jpg">
+            </div>
+        </div>
+
+        <div class="col-6 col-lg-3">
+            <div class="gallery-card">
+                <img src="img/gal3.jpg" alt="Gallery image 3" class="gallery-img" data-bs-toggle="modal" data-bs-target="#galleryModal" data-full-image="img/gal3.jpg">
+            </div>
+        </div>
+
+        <div class="col-6 col-lg-3">
+            <div class="gallery-card">
+                <img src="img/gal4.jpg" alt="Gallery image 4" class="gallery-img" data-bs-toggle="modal" data-bs-target="#galleryModal" data-full-image="img/gal4.jpg">
+            </div>
+        </div>
+
+        <div class="col-6 col-lg-3">
+            <div class="gallery-card">
+                <img src="img/gal5.jpg" alt="Gallery image 5" class="gallery-img" data-bs-toggle="modal" data-bs-target="#galleryModal" data-full-image="img/gal5.jpg">
+            </div>
+        </div>
+
+        <div class="col-6 col-lg-3">
+            <div class="gallery-card">
+                <img src="img/gal6.jpg" alt="Gallery image 6" class="gallery-img" data-bs-toggle="modal" data-bs-target="#galleryModal" data-full-image="img/gal6.jpg">
+            </div>
+        </div>
+
+        <div class="col-6 col-lg-3">
+            <div class="gallery-card">
+                <img src="img/gal7.jpg" alt="Gallery image 7" class="gallery-img" data-bs-toggle="modal" data-bs-target="#galleryModal" data-full-image="img/gal7.jpg">
+            </div>
+        </div>
+
+        <div class="col-6 col-lg-3">
+            <div class="gallery-card">
+                <img src="img/gal8.jpg" alt="Gallery image 8" class="gallery-img" data-bs-toggle="modal" data-bs-target="#galleryModal" data-full-image="img/gal8.jpg">
+            </div>
+        </div>
+
+        <div class="col-6 col-lg-3">
+            <div class="gallery-card">
+                <img src="img/gal9.jpg" alt="Gallery image 9" class="gallery-img" data-bs-toggle="modal" data-bs-target="#galleryModal" data-full-image="img/gal9.jpg">
+            </div>
+        </div>
+
+        <div class="col-6 col-lg-3">
+            <div class="gallery-card">
+                <img src="img/gal10.jpg" alt="Gallery image 10" class="gallery-img" data-bs-toggle="modal" data-bs-target="#galleryModal" data-full-image="img/gal10.jpg">
+            </div>
+        </div>
+
+        <div class="col-6 col-lg-3">
+            <div class="gallery-card">
+                <img src="img/gal11.jpg" alt="Gallery image 11" class="gallery-img" data-bs-toggle="modal" data-bs-target="#galleryModal" data-full-image="img/gal11.jpg">
+            </div>
+        </div>
+
+        <div class="col-6 col-lg-3">
+            <div class="gallery-card">
+                <img src="img/gal12.jpg" alt="Gallery image 12" class="gallery-img" data-bs-toggle="modal" data-bs-target="#galleryModal" data-full-image="img/gal12.jpg">
+            </div>
+        </div>
+
+        <div class="col-6 col-lg-3">
+            <div class="gallery-card">
+                <img src="img/gal13.jpg" alt="Gallery image 13" class="gallery-img" data-bs-toggle="modal" data-bs-target="#galleryModal" data-full-image="img/gal13.jpg">
+            </div>
+        </div>
+
+        <div class="col-6 col-lg-3">
+            <div class="gallery-card">
+                <img src="img/gal14.jpg" alt="Gallery image 14" class="gallery-img" data-bs-toggle="modal" data-bs-target="#galleryModal" data-full-image="img/gal14.jpg">
+            </div>
+        </div>
+
+        <div class="col-6 col-lg-3">
+            <div class="gallery-card">
+                <img src="img/gal15.jpg" alt="Gallery image 15" class="gallery-img" data-bs-toggle="modal" data-bs-target="#galleryModal" data-full-image="img/gal15.jpg">
+            </div>
+        </div>
+
+        <div class="col-6 col-lg-3">
+            <div class="gallery-card">
+                <img src="img/gal16.jpg" alt="Gallery image 16" class="gallery-img" data-bs-toggle="modal" data-bs-target="#galleryModal" data-full-image="img/gal16.jpg">
+            </div>
+        </div>
+
+        <div class="col-6 col-lg-3">
+            <div class="gallery-card">
+                <img src="img/gal17.jpg" alt="Gallery image 17" class="gallery-img" data-bs-toggle="modal" data-bs-target="#galleryModal" data-full-image="img/gal17.jpg">
+            </div>
+        </div>
+
+        <div class="col-6 col-lg-3">
+            <div class="gallery-card">
+                <img src="img/gal18.jpg" alt="Gallery image 18" class="gallery-img" data-bs-toggle="modal" data-bs-target="#galleryModal" data-full-image="img/gal18.jpg">
+            </div>
+        </div>
+
+        <div class="col-6 col-lg-3">
+            <div class="gallery-card">
+                <img src="img/gal19.jpg" alt="Gallery image 19" class="gallery-img" data-bs-toggle="modal" data-bs-target="#galleryModal" data-full-image="img/gal19.jpg">
+            </div>
+        </div>
+
+        <div class="col-6 col-lg-3">
+            <div class="gallery-card">
+                <img src="img/gal20.jpg" alt="Gallery image 20" class="gallery-img" data-bs-toggle="modal" data-bs-target="#galleryModal" data-full-image="img/gal20.jpg">
+            </div>
+        </div>
+
+        <div class="col-6 col-lg-3">
+            <div class="gallery-card">
+                <img src="img/gal21.jpg" alt="Gallery image 21" class="gallery-img" data-bs-toggle="modal" data-bs-target="#galleryModal" data-full-image="img/gal21.jpg">
+            </div>
+        </div>
+
+        <div class="col-6 col-lg-3">
+            <div class="gallery-card">
+                <img src="img/gal22.jpg" alt="Gallery image 22" class="gallery-img" data-bs-toggle="modal" data-bs-target="#galleryModal" data-full-image="img/gal22.jpg">
+            </div>
+        </div>
+
+        <div class="col-6 col-lg-3">
+            <div class="gallery-card">
+                <img src="img/gal23.jpg" alt="Gallery image 23" class="gallery-img" data-bs-toggle="modal" data-bs-target="#galleryModal" data-full-image="img/gal23.jpg">
+            </div>
+        </div>
+
+        <div class="col-6 col-lg-3">
+            <div class="gallery-card">
+                <img src="img/gal24.jpg" alt="Gallery image 24" class="gallery-img" data-bs-toggle="modal" data-bs-target="#galleryModal" data-full-image="img/gal24.jpg">
+            </div>
+        </div>
+
+        <div class="col-6 col-lg-3">
+            <div class="gallery-card">
+                <img src="img/gal25.jpg" alt="Gallery image 25" class="gallery-img" data-bs-toggle="modal" data-bs-target="#galleryModal" data-full-image="img/gal25.jpg">
+            </div>
+        </div>
+
+        <div class="col-6 col-lg-3">
+            <div class="gallery-card">
+                <img src="img/gal26.jpg" alt="Gallery image 26" class="gallery-img" data-bs-toggle="modal" data-bs-target="#galleryModal" data-full-image="img/gal26.jpg">
+            </div>
+        </div>
+
+        <div class="col-6 col-lg-3">
+            <div class="gallery-card">
+                <img src="img/gal27.jpg" alt="Gallery image 27" class="gallery-img" data-bs-toggle="modal" data-bs-target="#galleryModal" data-full-image="img/gal27.jpg">
+            </div>
+        </div>
+
+        <div class="col-6 col-lg-3">
+            <div class="gallery-card">
+                <img src="img/gal28.jpg" alt="Gallery image 28" class="gallery-img" data-bs-toggle="modal" data-bs-target="#galleryModal" data-full-image="img/gal28.jpg">
+            </div>
+        </div>
+
+        <div class="col-6 col-lg-3">
+            <div class="gallery-card">
+                <img src="img/gal29.jpg" alt="Gallery image 29" class="gallery-img" data-bs-toggle="modal" data-bs-target="#galleryModal" data-full-image="img/gal29.jpg">
+            </div>
+        </div>
+
+        <div class="col-6 col-lg-3">
+            <div class="gallery-card">
+                <img src="img/gal30.jpg" alt="Gallery image 30" class="gallery-img" data-bs-toggle="modal" data-bs-target="#galleryModal" data-full-image="img/gal30.jpg">
+            </div>
+        </div>
+
+        <div class="col-6 col-lg-3">
+            <div class="gallery-card">
+                <img src="img/gal31.jpg" alt="Gallery image 31" class="gallery-img" data-bs-toggle="modal" data-bs-target="#galleryModal" data-full-image="img/gal31.jpg">
+            </div>
+        </div>
+
+        <div class="col-6 col-lg-3">
+            <div class="gallery-card">
+                <img src="img/gal32.jpg" alt="Gallery image 32" class="gallery-img" data-bs-toggle="modal" data-bs-target="#galleryModal" data-full-image="img/gal32.jpg">
+            </div>
+        </div>
+
+        <div class="col-6 col-lg-3">
+            <div class="gallery-card">
+                <img src="img/gal33.jpg" alt="Gallery image 33" class="gallery-img" data-bs-toggle="modal" data-bs-target="#galleryModal" data-full-image="img/gal33.jpg">
+            </div>
+        </div>
+
+        <div class="col-6 col-lg-3">
+            <div class="gallery-card">
+                <img src="img/gal34.jpg" alt="Gallery image 34" class="gallery-img" data-bs-toggle="modal" data-bs-target="#galleryModal" data-full-image="img/gal34.jpg">
+            </div>
+        </div>
+
+        <div class="col-6 col-lg-3">
+            <div class="gallery-card">
+                <img src="img/gal35.jpg" alt="Gallery image 35" class="gallery-img" data-bs-toggle="modal" data-bs-target="#galleryModal" data-full-image="img/gal35.jpg">
+            </div>
+        </div>
+
+        <div class="col-6 col-lg-3">
+            <div class="gallery-card">
+                <img src="img/gal36.jpg" alt="Gallery image 36" class="gallery-img" data-bs-toggle="modal" data-bs-target="#galleryModal" data-full-image="img/gal36.jpg">
+            </div>
+        </div>
+
+        <div class="col-6 col-lg-3">
+            <div class="gallery-card">
+                <img src="img/gal37.jpg" alt="Gallery image 37" class="gallery-img" data-bs-toggle="modal" data-bs-target="#galleryModal" data-full-image="img/gal37.jpg">
+            </div>
+        </div>
+
+        <div class="col-6 col-lg-3">
+            <div class="gallery-card">
+                <img src="img/gal38.jpg" alt="Gallery image 38" class="gallery-img" data-bs-toggle="modal" data-bs-target="#galleryModal" data-full-image="img/gal38.jpg">
+            </div>
+        </div>
+
+        <div class="col-6 col-lg-3">
+            <div class="gallery-card">
+                <img src="img/gal39.jpg" alt="Gallery image 39" class="gallery-img" data-bs-toggle="modal" data-bs-target="#galleryModal" data-full-image="img/gal39.jpg">
+            </div>
+        </div>
+
+        <div class="col-6 col-lg-3">
+            <div class="gallery-card">
+                <img src="img/gal40.jpg" alt="Gallery image 40" class="gallery-img" data-bs-toggle="modal" data-bs-target="#galleryModal" data-full-image="img/gal40.jpg">
+            </div>
+        </div>
+
+        <div class="col-6 col-lg-3">
+            <div class="gallery-card">
+                <img src="img/gal41.jpg" alt="Gallery image 41" class="gallery-img" data-bs-toggle="modal" data-bs-target="#galleryModal" data-full-image="img/gal41.jpg">
+            </div>
+        </div>
+
+        <div class="col-6 col-lg-3">
+            <div class="gallery-card">
+                <img src="img/gal42.jpg" alt="Gallery image 42" class="gallery-img" data-bs-toggle="modal" data-bs-target="#galleryModal" data-full-image="img/gal42.jpg">
+            </div>
+        </div>
+
+        <div class="col-6 col-lg-3">
+            <div class="gallery-card">
+                <img src="img/gal43.jpg" alt="Gallery image 43" class="gallery-img" data-bs-toggle="modal" data-bs-target="#galleryModal" data-full-image="img/gal43.jpg">
+            </div>
+        </div>
+
+        <div class="col-6 col-lg-3">
+            <div class="gallery-card">
+                <img src="img/gal44.jpg" alt="Gallery image 44" class="gallery-img" data-bs-toggle="modal" data-bs-target="#galleryModal" data-full-image="img/gal44.jpg">
+            </div>
+        </div>
+
+        <div class="col-6 col-lg-3">
+            <div class="gallery-card">
+                <img src="img/gal45.jpg" alt="Gallery image 45" class="gallery-img" data-bs-toggle="modal" data-bs-target="#galleryModal" data-full-image="img/gal45.jpg">
+            </div>
+        </div>
+
+        <div class="col-6 col-lg-3">
+            <div class="gallery-card">
+                <img src="img/gal46.jpg" alt="Gallery image 46" class="gallery-img" data-bs-toggle="modal" data-bs-target="#galleryModal" data-full-image="img/gal46.jpg">
+            </div>
+        </div>
+
+        <div class="col-6 col-lg-3">
+            <div class="gallery-card">
+                <img src="img/gal47.jpg" alt="Gallery image 47" class="gallery-img" data-bs-toggle="modal" data-bs-target="#galleryModal" data-full-image="img/gal47.jpg">
+            </div>
+        </div>
+
+        <div class="col-6 col-lg-3">
+            <div class="gallery-card">
+                <img src="img/gal48.jpg" alt="Gallery image 48" class="gallery-img" data-bs-toggle="modal" data-bs-target="#galleryModal" data-full-image="img/gal48.jpg">
+            </div>
+        </div>
+
+        <div class="col-6 col-lg-3">
+            <div class="gallery-card">
+                <img src="img/gal49.jpg" alt="Gallery image 49" class="gallery-img" data-bs-toggle="modal" data-bs-target="#galleryModal" data-full-image="img/gal49.jpg">
+            </div>
+        </div>
+
+        <div class="col-6 col-lg-3">
+            <div class="gallery-card">
+                <img src="img/gal50.jpg" alt="Gallery image 50" class="gallery-img" data-bs-toggle="modal" data-bs-target="#galleryModal" data-full-image="img/gal50.jpg">
+            </div>
+        </div>
+
+        <div class="col-6 col-lg-3">
+            <div class="gallery-card">
+                <img src="img/gal51.jpg" alt="Gallery image 51" class="gallery-img" data-bs-toggle="modal" data-bs-target="#galleryModal" data-full-image="img/gal51.jpg">
+            </div>
+        </div>
+
+        <div class="col-6 col-lg-3">
+            <div class="gallery-card">
+                <img src="img/gal52.jpg" alt="Gallery image 52" class="gallery-img" data-bs-toggle="modal" data-bs-target="#galleryModal" data-full-image="img/gal52.jpg">
+            </div>
+        </div>
+
+        <div class="col-6 col-lg-3">
+            <div class="gallery-card">
+                <img src="img/gal53.jpg" alt="Gallery image 53" class="gallery-img" data-bs-toggle="modal" data-bs-target="#galleryModal" data-full-image="img/gal53.jpg">
+            </div>
+        </div>
+
+        <div class="col-6 col-lg-3">
+            <div class="gallery-card">
+                <img src="img/gal54.jpg" alt="Gallery image 54" class="gallery-img" data-bs-toggle="modal" data-bs-target="#galleryModal" data-full-image="img/gal54.jpg">
+            </div>
+        </div>
+
+        <div class="col-6 col-lg-3">
+            <div class="gallery-card">
+                <img src="img/gal55.jpg" alt="Gallery image 55" class="gallery-img" data-bs-toggle="modal" data-bs-target="#galleryModal" data-full-image="img/gal55.jpg">
+            </div>
+        </div>
+
+        <div class="col-6 col-lg-3">
+            <div class="gallery-card">
+                <img src="img/gal56.jpg" alt="Gallery image 56" class="gallery-img" data-bs-toggle="modal" data-bs-target="#galleryModal" data-full-image="img/gal56.jpg">
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+</section>
+
+<!-- Gallery Image Modal -->
+
+<div class="modal fade" id="galleryModal" tabindex="-1"
+     aria-labelledby="galleryModalLabel" aria-hidden="true">
+
+
+<div class="modal-dialog modal-dialog-centered modal-xl">
+    <div class="modal-content">
+
+        <div class="modal-header">
+            <h5 class="modal-title id="galleryModalLabel">
+                My Gallery
+            </h5>
+
+            <button type="button"
+                    class="btn-close btn-close-white"
+                    data-bs-dismiss="modal"
+                    aria-label="Close"></button>
+        </div>
+
+        <div class="modal-body gallery-viewer">
+
+            <button type="button"
+                    class="gallery-nav gallery-prev"
+                    id="galleryPrev"
+                    aria-label="Previous image">
+                &#10094;
+            </button>
+
+            <img id="modalGalleryImage"
+                src=""
+                alt="Expanded gallery image">
+
+            <button type="button"
+                    class="gallery-nav gallery-next"
+                    id="galleryNext"
+                    aria-label="Next image">
+                &#10095;
+            </button>
+
+        </div>
+
+        <div class="gallery-counter" id="galleryCounter">
+            1 / 4
+        </div>
+
+    </div>
+</div>
+
+
+</div>
+
+
+<!-- My Skills Section Start -->
+<section class="skills-section" id="skills">
+
+    <div class="container">
+
+        <!-- Section Heading -->
+        <div class="skills-heading text-center">
+
+            <span class="skills-subtitle">WHAT I WORK WITH</span>
+
+            <h2>
+                My <span>Skills</span>
+            </h2>
+
+            <p>
+                Technologies and tools I use to build modern,
+                responsive and interactive web experiences.
+            </p>
+
+        </div>
+
+
+        <!-- Skills Cards -->
+        <div class="row g-4">
+
+            <!-- Frontend Development -->
+            <div class="col-lg-4 col-md-6">
+
+                <div class="skill-category-card">
+
+                    <div class="skill-category-icon">
+                        <i class="bi bi-code-slash"></i>
+                    </div>
+
+                    <h3>Frontend Development</h3>
+
+                    <p class="skill-category-description">
+                        Creating responsive and visually appealing
+                        user interfaces.
+                    </p>
+
+
+                    <div class="skill-list">
+
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>HTML5</span>
+                                <span class="skill-level">Core</span>
+                            </div>
+                            <div class="skill-line">
+                                <div class="skill-fill html-fill"></div>
+                            </div>
+                        </div>
+
+
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>CSS3</span>
+                                <span class="skill-level">Core</span>
+                            </div>
+                            <div class="skill-line">
+                                <div class="skill-fill css-fill"></div>
+                            </div>
+                        </div>
+
+
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>JavaScript</span>
+                                <span class="skill-level">Learning</span>
+                            </div>
+                            <div class="skill-line">
+                                <div class="skill-fill js-fill"></div>
+                            </div>
+                        </div>
+
+
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>Bootstrap 5</span>
+                                <span class="skill-level">Core</span>
+                            </div>
+                            <div class="skill-line">
+                                <div class="skill-fill bootstrap-fill"></div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- Backend Development -->
+            <div class="col-lg-4 col-md-6">
+
+                <div class="skill-category-card">
+
+                    <div class="skill-category-icon">
+                        <i class="bi bi-database"></i>
+                    </div>
+
+                    <h3>Backend Development</h3>
+
+                    <p class="skill-category-description">
+                        Working with server-side programming
+                        and database management.
+                    </p>
+
+
+                    <div class="skill-list">
+
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>PHP</span>
+                                <span class="skill-level">Core</span>
+                            </div>
+                            <div class="skill-line">
+                                <div class="skill-fill php-fill"></div>
+                            </div>
+                        </div>
+
+
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>MySQL</span>
+                                <span class="skill-level">Core</span>
+                            </div>
+                            <div class="skill-line">
+                                <div class="skill-fill mysql-fill"></div>
+                            </div>
+                        </div>
+
+
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>PDO</span>
+                                <span class="skill-level">Learning</span>
+                            </div>
+                            <div class="skill-line">
+                                <div class="skill-fill pdo-fill"></div>
+                            </div>
+                        </div>
+
+
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>CRUD Operations</span>
+                                <span class="skill-level">Core</span>
+                            </div>
+                            <div class="skill-line">
+                                <div class="skill-fill crud-fill"></div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- Tools & Technologies -->
+            <div class="col-lg-4 col-md-6">
+
+                <div class="skill-category-card">
+
+                    <div class="skill-category-icon">
+                        <i class="bi bi-tools"></i>
+                    </div>
+
+                    <h3>Tools & Technologies</h3>
+
+                    <p class="skill-category-description">
+                        Exploring development tools, libraries
+                        and interactive web experiences.
+                    </p>
+
+
+                    <div class="technology-tags">
+
+                        <span>
+                            <i class="bi bi-code-square"></i>
+                            VS Code
+                        </span>
+
+                        <span>
+                            <i class="bi bi-box"></i>
+                            Three.js
+                        </span>
+
+                        <span>
+                            <i class="bi bi-magic"></i>
+                            GSAP
+                        </span>
+
+                        <span>
+                            <i class="bi bi-git"></i>
+                            Git
+                        </span>
+
+                        <span>
+                            <i class="bi bi-github"></i>
+                            GitHub
+                        </span>
+
+                    </div>
+
+
+                    <div class="learning-box">
+
+                        <span class="learning-dot"></span>
+
+                        <div>
+                            <h4>Always Learning</h4>
+                            <p>Exploring new technologies and improving my skills.</p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- Learning Journey Start -->
+        <div class="learning-journey">
+
+            <div class="journey-heading">
+                <span class="journey-label">MY DEVELOPMENT JOURNEY</span>
+
+                <h3>
+                    Learning Today,
+                    <span>Building Tomorrow.</span>
+                </h3>
+
+                <p>
+                    I continuously explore new technologies and improve
+                    my development skills by building practical projects.
+                </p>
+            </div>
+
+
+            <div class="row g-4 journey-cards">
+
+                <!-- Card 1 -->
+                <div class="col-md-4">
+
+                    <div class="journey-card">
+
+                        <div class="journey-number">01</div>
+
+                        <div class="journey-icon">
+                            <i class="bi bi-laptop"></i>
+                        </div>
+
+                        <h4>Build</h4>
+
+                        <p>
+                            Creating responsive websites using HTML,
+                            CSS, JavaScript and Bootstrap.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Card 2 -->
+                <div class="col-md-4">
+
+                    <div class="journey-card">
+
+                        <div class="journey-number">02</div>
+
+                        <div class="journey-icon">
+                            <i class="bi bi-database-check"></i>
+                        </div>
+
+                        <h4>Develop</h4>
+
+                        <p>
+                            Building dynamic web applications using
+                            PHP, MySQL and database operations.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Card 3 -->
+                <div class="col-md-4">
+
+                    <div class="journey-card">
+
+                        <div class="journey-number">03</div>
+
+                        <div class="journey-icon">
+                            <i class="bi bi-boxes"></i>
+                        </div>
+
+                        <h4>Explore</h4>
+
+                        <p>
+                            Exploring interactive animations,
+                            3D experiences and modern web technologies.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+        <!-- Learning Journey End -->
+
+    </div>
+
+</section>
+<!-- My Skills Section End -->
+
+<!-- Projects Section Start -->
+
+<section class="projects-section" id="projects">
+
+
+<div class="container">
+
+    <!-- Section Heading -->
+    <div class="projects-heading text-center">
+
+        <span class="projects-subtitle">MY RECENT WORK</span>
+
+        <h2>
+            Featured <span>Projects</span>
+        </h2>
+
+        <p>
+            A collection of projects where I turn ideas
+            into practical digital experiences.
+        </p>
+
+    </div>
+
+
+    <!-- Project Filters -->
+    <div class="project-filters">
+
+        <button class="project-filter active" data-filter="all">
+            All Projects
+        </button>
+
+        <button class="project-filter" data-filter="frontend">
+            Frontend
+        </button>
+
+        <button class="project-filter" data-filter="backend">
+            Backend
+        </button>
+
+        <button class="project-filter" data-filter="3d">
+            3D & Animation
+        </button>
+
+    </div>
+
+
+    <!-- Projects Grid -->
+    <div class="row g-4 projects-grid">
+
+
+        <!-- Project 1: Portfolio -->
+        <div class="col-lg-6 project-item" data-category="frontend">
+
+            <article class="project-card featured-project">
+
+                <div class="project-image-wrapper">
+
+                    <img
+                        src="img/project-portfolio.jpg"
+                        alt="Personal portfolio website preview"
+                        class="project-image"
+                        loading="lazy"
+                    >
+
+                    <span class="project-type-badge">
+                        Featured Project
+                    </span>
+
+                    <div class="project-image-overlay">
+
+                        <a
+                            href="#"
+                            class="project-preview-link"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            aria-label="View portfolio live demo"
+                        >
+                            <i class="bi bi-arrow-up-right"></i>
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <div class="project-content">
+
+                    <div class="project-topline">
+                        <span class="project-category">
+                            FRONTEND DEVELOPMENT
+                        </span>
+
+                        <span class="project-number">01</span>
+                    </div>
+
+                    <h3>Personal Portfolio Website</h3>
+
+                    <p>
+                        A modern, responsive portfolio designed
+                        to showcase my skills, projects and
+                        web development journey.
+                    </p>
+
+
+                    <div class="project-tech-stack">
+                        <span>HTML5</span>
+                        <span>CSS3</span>
+                        <span>JavaScript</span>
+                        <span>Bootstrap</span>
+                    </div>
+
+
+                    <div class="project-actions">
+
+                        <a
+                            href="http://index.html#projects"
+                            class="project-btn project-btn-primary"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <i class="bi bi-box-arrow-up-right"></i>
+                            Live Demo
+                        </a>
+
+                        <a
+                            href="#"
+                            class="project-btn project-btn-secondary"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <i class="bi bi-github"></i>
+                            Source Code
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+        </div>
+
+
+        <!-- Project 2: News Portal -->
+        <div class="col-lg-6 project-item" data-category="backend">
+
+            <article class="project-card">
+
+                <div class="project-image-wrapper">
+
+                    <img
+                        src="img/project-newsportal.jpg"
+                        alt="News portal website preview"
+                        class="project-image"
+                        loading="lazy"
+                    >
+
+                    <div class="project-image-overlay">
+
+                        <a
+                            href="#"
+                            class="project-preview-link"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            aria-label="View news portal demo"
+                        >
+                            <i class="bi bi-arrow-up-right"></i>
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <div class="project-content">
+
+                    <div class="project-topline">
+                        <span class="project-category">
+                            FULL-STACK DEVELOPMENT
+                        </span>
+
+                        <span class="project-number">02</span>
+                    </div>
+
+                    <h3>Dynamic News Portal</h3>
+
+                    <p>
+                        A news website project with category
+                        navigation, database-driven articles
+                        and an administration panel.
+                    </p>
+
+
+                    <div class="project-tech-stack">
+                        <span>PHP</span>
+                        <span>MySQL</span>
+                        <span>PDO</span>
+                        <span>Bootstrap</span>
+                    </div>
+
+
+                    <div class="project-actions">
+
+                        <a
+                            href="#"
+                            class="project-btn project-btn-primary"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <i class="bi bi-box-arrow-up-right"></i>
+                            Live Demo
+                        </a>
+
+                        <a
+                            href="#"
+                            class="project-btn project-btn-secondary"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <i class="bi bi-github"></i>
+                            Source Code
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+        </div>
+
+
+        <!-- Project 3: Student Management -->
+        <div class="col-lg-6 project-item" data-category="backend">
+
+            <article class="project-card">
+
+                <div class="project-image-wrapper">
+
+                    <img
+                        src="img/project-student.jpg"
+                        alt="Student management system preview"
+                        class="project-image"
+                        loading="lazy"
+                    >
+
+                    <div class="project-image-overlay">
+
+                        <a
+                            href="#"
+                            class="project-preview-link"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            aria-label="View student management demo"
+                        >
+                            <i class="bi bi-arrow-up-right"></i>
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <div class="project-content">
+
+                    <div class="project-topline">
+                        <span class="project-category">
+                            DATABASE APPLICATION
+                        </span>
+
+                        <span class="project-number">03</span>
+                    </div>
+
+                    <h3>Student Management System</h3>
+
+                    <p>
+                        A student records application for
+                        managing student information, marks,
+                        totals, results and divisions.
+                    </p>
+
+
+                    <div class="project-tech-stack">
+                        <span>PHP</span>
+                        <span>MySQL</span>
+                        <span>CRUD</span>
+                        <span>Bootstrap</span>
+                    </div>
+
+
+                    <div class="project-actions">
+
+                        <a
+                            href="#"
+                            class="project-btn project-btn-primary"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <i class="bi bi-box-arrow-up-right"></i>
+                            Live Demo
+                        </a>
+
+                        <a
+                            href="#"
+                            class="project-btn project-btn-secondary"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <i class="bi bi-github"></i>
+                            Source Code
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+        </div>
+
+
+        <!-- Project 4: Three.js -->
+        <div class="col-lg-6 project-item" data-category="3d">
+
+            <article class="project-card">
+
+                <div class="project-image-wrapper">
+
+                    <img
+                        src="img/project-threejs.jpg"
+                        alt="Three dimensional interactive web scene preview"
+                        class="project-image"
+                        loading="lazy"
+                    >
+
+                    <div class="project-image-overlay">
+
+                        <a
+                            href="#"
+                            class="project-preview-link"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            aria-label="View 3D project demo"
+                        >
+                            <i class="bi bi-arrow-up-right"></i>
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <div class="project-content">
+
+                    <div class="project-topline">
+                        <span class="project-category">
+                            3D WEB EXPERIENCE
+                        </span>
+
+                        <span class="project-number">04</span>
+                    </div>
+
+                    <h3>Interactive 3D Experience</h3>
+
+                    <p>
+                        An experimental 3D web experience
+                        exploring interactive objects,
+                        camera movement and animation.
+                    </p>
+
+
+                    <div class="project-tech-stack">
+                        <span>JavaScript</span>
+                        <span>Three.js</span>
+                        <span>WebGL</span>
+                    </div>
+
+
+                    <div class="project-actions">
+
+                        <a
+                            href="#"
+                            class="project-btn project-btn-primary"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <i class="bi bi-box-arrow-up-right"></i>
+                            Live Demo
+                        </a>
+
+                        <a
+                            href="#"
+                            class="project-btn project-btn-secondary"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <i class="bi bi-github"></i>
+                            Source Code
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+        </div>
+
+
+    </div>
+
+
+    <!-- Bottom Call To Action -->
+    <div class="projects-cta">
+
+        <p>Have an idea for a project?</p>
+
+        <a href="#contact" class="projects-contact-btn">
+            Let's Talk
+            <i class="bi bi-arrow-up-right"></i>
+        </a>
+
+    </div>
+
+</div>
+
+
+</section>
+<!-- Projects Section End -->
+
+
+<!-- Contact Section -->
+<section id="contact" class="section-padding">
+    <div class="container">
+
+        <h2>Contact Me</h2>
+
+        <p>Email: your-email@example.com</p>
+
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="bg-dark text-white text-center p-3">
+    <p class="mb-0">
+        &copy; 2026 MyPortfolio. All rights reserved.
+    </p>
+</footer>
+
+<!-- Bootstrap JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- Custom JavaScript -->
+<script src="script.js"></script>
+
+
+</body>
+</html>
